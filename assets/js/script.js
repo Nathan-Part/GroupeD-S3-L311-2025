@@ -31,7 +31,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
                    document.querySelector('.button').getAttribute('class')+' pause'
                );
        })
-       console.log(is_run);
 
         // Si le chrono est en marche, mise a jour de l'affichage 
         // et changement de la couleur de fond chaque seconde 
