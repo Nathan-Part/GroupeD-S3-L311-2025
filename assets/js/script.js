@@ -1,9 +1,9 @@
 window.addEventListener("DOMContentLoaded", (event) => {
-    let is_run = "true";
+    let is_run = true;
 
     // Formatage du timer (exemple, '9:7' devient '09:07')
     function adjustTimer(timer){
-        (timer < 10 ? '0'+timer : timer);
+        return (timer < 10 ? '0'+timer : timer);
     }
 
     function randomHexColor(x, y, z){
