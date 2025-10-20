@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     function init(){
         // Cliquer sur le bouton change son etat (de 'play' a 'pause' et vice-versa)
-        document.querySelector('.button').addEventListener('clic', (event) => {
+        document.querySelector('.button').addEventListener('click', (event) => {
            is_run = !is_run;
            ((' ' + document.querySelector('.button').className + ' ').indexOf('pause') > -1) ?
                document.querySelector('.button')
